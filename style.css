@@ -7,3 +7,56 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.site-footer {
+  background-color: black;
+  color: white;
+  padding: 3rem 1rem;
+  border-radius: 0 0 14px 14px;
+}
+
+.footer-columns {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto 2rem;
+}
+.footer-column h3 {
+  font-size: 1rem;
+  color: white;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer-column ul li {
+  margin-bottom: 0.5rem;
+}
+.footer-column ul li a {
+  color: white;
+  text-decoration: none;
+}
+.contact-title {
+  color: white;
+  font-weight: bold;
+}
+.contact-email {
+  color: white;
+  margin-top: 0.5rem;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: white;
+}
+.footer-icon {
+  width: 48px;
+  margin-bottom: 1rem;
+}
