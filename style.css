@@ -4,108 +4,102 @@
   padding: 0;
 }
 body {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   margin: 0;
   background-color: #fff;
   color: #2f2f2f;
 }
 
- header{
-    background-color: black;
- 
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap; 
-    padding: 2rem;
-    font-family: "GT America Standard";
-    font-size: 14px;
-    font-weight: 500;
-   
- }
-  h1,h2{
-    font-size: 25px;
-    color:#fff ;
-        letter-spacing: -.5px;
-    padding: 2px 0 4px 0.8rem;
+header {
+  background-color: black;
 
- }
- .header-left{
-display: flex;
-justify-content:space-between ;
-gap: 10px;
-color: #fff;
-font-size: 20px;
-   
- }
- span{
-  color: white; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 2rem;
+  font-family: "GT America Standard";
+  font-size: 14px;
+  font-weight: 500;
+}
+h1,
+h2 {
+  font-size: 25px;
+  color: #fff;
+  letter-spacing: -0.5px;
+  padding: 2px 0 4px 0.8rem;
+}
+.header-left {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  color: #fff;
+  font-size: 20px;
+}
+span {
+  color: white;
   font-size: 20px;
   padding: 0 5px;
   font-weight: bold;
- }
+}
 
- .header-right{
+.header-right {
   display: flex;
   align-items: center;
-  gap: 10px; 
-   
- }
- .header-left a {
+  gap: 10px;
+}
+.header-left a {
   color: white;
   text-decoration: none;
- }
-  .header-left a:hover {
+}
+.header-left a:hover {
   color: lightgray;
-  }
+}
 
- .btn-black, .btn-blue{
- 
+.btn-black,
+.btn-blue {
   border-radius: 6px;
   font-size: 30px;
- }
- 
+}
 
-     .btn-black {
-   background-color:#000000;
-    border-color: rgb(255, 255, 255);
+.btn-black {
+  background-color: #000000;
+  border-color: rgb(255, 255, 255);
 
   border-radius: 6px;
   padding: 0;
- }
- .btn-black a {
+}
+.btn-black a {
   color: white;
   text-decoration: none;
   display: inline-block;
   padding: 12px 20px;
   font-weight: bold;
   font-size: 15px;
- }
- 
- .btn-blue  {
-    position: relative;
-   background-color:#4C5FD5;
+}
+
+.btn-blue {
+  position: relative;
+  background-color: #4c5fd5;
   border: none;
- 
+
   padding: 0;
- }
- .btn-blue a {
+}
+.btn-blue a {
   color: white;
   text-decoration: none;
   display: inline-block;
   padding: 12px 20px;
   font-weight: bold;
   font-size: 15px;
- }
- .search-input{
-    position: relative;
-    font-size: 16px; 
+}
+.search-input {
+  position: relative;
+  font-size: 16px;
   padding: 10px;
   border-radius: 5px;
-  border: 1px solid #ccc
-
- }
-
+  border: 1px solid #ccc;
+}
 
 .container {
   max-width: 1200px;
@@ -247,98 +241,93 @@ font-size: 20px;
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
-header{
-    background-color: black;
- 
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap; 
-    padding: 2rem;
-    font-family: "GT America Standard";
-    font-size: 14px;
-    font-weight: 500;
-   
- }
- .header-left{
-display: flex;
-justify-content:space-between ;
-gap: 10px;
-color: #fff;
-font-size: 20px;
-   
- }
- h1,h2{
-    font-size: 25px;
-    color:#fff ;
-        letter-spacing: -.5px;
-    padding: 2px 0 4px 0.8rem;
+header {
+  background-color: black;
 
- }
- span{
-  color: white; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 2rem;
+  font-family: "GT America Standard";
+  font-size: 14px;
+  font-weight: 500;
+}
+.header-left {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  color: #fff;
+  font-size: 20px;
+}
+h1,
+h2 {
+  font-size: 25px;
+  color: #fff;
+  letter-spacing: -0.5px;
+  padding: 2px 0 4px 0.8rem;
+}
+span {
+  color: white;
   font-size: 20px;
   padding: 0 5px;
   font-weight: bold;
- }
+}
 
- .header-right{
+.header-right {
   display: flex;
   align-items: center;
-  gap: 10px; 
-   
- }
- .header-left a {
+  gap: 10px;
+}
+.header-left a {
   color: white;
   text-decoration: none;
- }
-  .header-left a:hover {
+}
+.header-left a:hover {
   color: lightgray;
-  }
+}
 
- .btn-black, .btn-blue{
- 
+.btn-black,
+.btn-blue {
   border-radius: 6px;
   font-size: 30px;
- }
- 
+}
 
-     .btn-black {
-   background-color:#000000;
-    border-color: rgb(255, 255, 255);
+.btn-black {
+  background-color: #000000;
+  border-color: rgb(255, 255, 255);
 
   border-radius: 6px;
   padding: 0;
- }
- .btn-black a {
+}
+.btn-black a {
   color: white;
   text-decoration: none;
   display: inline-block;
   padding: 12px 20px;
   font-weight: bold;
   font-size: 15px;
- }
- 
- .btn-blue  {
-    position: relative;
-   background-color:#4C5FD5;
+}
+
+.btn-blue {
+  position: relative;
+  background-color: #4c5fd5;
   border: none;
- 
+
   padding: 0;
- }
- .btn-blue a {
+}
+.btn-blue a {
   color: white;
   text-decoration: none;
   display: inline-block;
   padding: 12px 20px;
   font-weight: bold;
   font-size: 15px;
- }
- .search-input{
-    position: relative;
-    font-size: 16px; 
+}
+.search-input {
+  position: relative;
+  font-size: 16px;
   padding: 10px;
   border-radius: 5px;
-  border: 1px solid #ccc
-
- }
+  border: 1px solid #ccc;
+}
