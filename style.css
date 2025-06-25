@@ -31,12 +31,21 @@ header {
   color: #fff;
   font-size: 20px;
 }
-h1,
-h2 {
+h1,h2 {
+font-family: "Gilroy", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 25px;
   color: #fff;
   letter-spacing: -0.5px;
   padding: 2px 0 4px 0.8rem;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+  color: rgb(255, 255, 255);
+  font-size: 50px;
 }
 span {
   color: white;
@@ -61,15 +70,15 @@ span {
 .btn-black,
 .btn-blue {
   border-radius: 6px;
-  font-size: 30px;
+  
 }
 
 .btn-black {
   background-color: #000000;
   border-color: rgb(255, 255, 255);
-
-  border-radius: 6px;
-  padding: 0;
+  transition: all 0.3s ease;
+;
+ 
 }
 .btn-black a {
   color: white;
@@ -79,11 +88,18 @@ span {
   font-weight: bold;
   font-size: 15px;
 }
+.btn-black:hover {
+ background-color: white;
+  color: black; 
+}
+.btn-black:hover a {
+  color: #000000; /* Blau wie dein anderer Button */
+}
 
 .btn-blue {
-  position: relative;
+ 
   background-color: #4c5fd5;
-  border: none;
+  border-color: #4c5fd5;
 
   padding: 0;
 }
@@ -95,11 +111,22 @@ span {
   font-weight: bold;
   font-size: 15px;
 }
+.btn-blue:hover {
+  background-color: #ffffff
+}
+.btn-blue:hover a {
+  color: #4c5fd5;
+}
+
+
+
 .search-input {
+  width: 200px;
   position: relative;
   font-size: 16px;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 6px;
+  
   border: 1px solid #ccc;
 }
 
