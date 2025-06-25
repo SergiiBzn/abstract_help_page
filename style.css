@@ -121,3 +121,11 @@ span {
 
   border: 1px solid #ccc;
 }
+/* ---------- Phone (≤ 500 px) ---------- */
+@media (max-width: 500px) {
+  .footer-columns {
+    grid-template-columns: 1fr; /* 1 Spalte */
+    gap: 1.2rem; /* noch enger */
+    text-align: center; /* typisches Mobile-Layout */
+  }
+}
