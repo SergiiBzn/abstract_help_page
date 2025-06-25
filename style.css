@@ -1,12 +1,13 @@
-@import url('style/main.css');
+@import url("style/main.css");
 
+@import url("style/footer.css");
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 body {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   margin: 0;
   background-color: #fff;
   color: #2f2f2f;
@@ -20,7 +21,7 @@ header {
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 2rem;
-  font-family: 'GT America Standard';
+  font-family: "GT America Standard";
   font-size: 14px;
   font-weight: 500;
 }
@@ -31,19 +32,16 @@ header {
   color: #fff;
   font-size: 20px;
 }
-h1,h2 {
-font-family: "Gilroy", "Helvetica Neue", Helvetica, Arial, sans-serif;
+h1,
+h2 {
+  font-family: "Gilroy", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 25px;
   color: #fff;
   letter-spacing: -0.5px;
   padding: 2px 0 4px 0.8rem;
 }
 .material-symbols-outlined {
-  font-variation-settings:
-    'FILL' 0,
-    'wght' 400,
-    'GRAD' 0,
-    'opsz' 24;
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
   color: rgb(255, 255, 255);
   font-size: 50px;
 }
@@ -71,15 +69,12 @@ span {
 .btn-black,
 .btn-blue {
   border-radius: 6px;
-  
 }
 
 .btn-black {
   background-color: #000000;
   border-color: rgb(255, 255, 255);
   transition: all 0.3s ease;
-;
- 
 }
 .btn-black a {
   color: white;
@@ -90,15 +85,14 @@ span {
   font-size: 15px;
 }
 .btn-black:hover {
- background-color: white;
-  color: black; 
+  background-color: white;
+  color: black;
 }
 .btn-black:hover a {
   color: #000000; /* Blau wie dein anderer Button */
 }
 
 .btn-blue {
- 
   background-color: #4c5fd5;
   border-color: #4c5fd5;
 
@@ -113,13 +107,11 @@ span {
   font-size: 15px;
 }
 .btn-blue:hover {
-  background-color: #ffffff
+  background-color: #ffffff;
 }
 .btn-blue:hover a {
   color: #4c5fd5;
 }
-
-
 
 .search-input {
   width: 200px;
@@ -127,59 +119,14 @@ span {
   font-size: 16px;
   padding: 10px;
   border-radius: 6px;
-  
+
   border: 1px solid #ccc;
 }
-
-.site-footer {
-  background-color: black;
-  color: white;
-  padding: 3rem 1rem;
-  border-radius: 0 0 14px 14px;
-}
-
-.footer-columns {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 2rem;
-  max-width: 1200px;
-  margin: 0 auto 2rem;
-}
-.footer-column h3 {
-  font-size: 1rem;
-  color: white;
-}
-
-.footer-column ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-.footer-column ul li {
-  margin-bottom: 0.5rem;
-}
-.footer-column ul li a {
-  color: white;
-  text-decoration: none;
-}
-.contact-title {
-  color: white;
-  font-weight: bold;
-}
-.contact-email {
-  color: white;
-  margin-top: 0.5rem;
-}
-
-.footer-bottom {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  max-width: 1200px;
-  margin: 0 auto;
-  color: white;
-}
-.footer-icon {
-  width: 48px;
-  margin-bottom: 1rem;
+/* ---------- Phone (≤ 500 px) ---------- */
+@media (max-width: 500px) {
+  .footer-columns {
+    grid-template-columns: 1fr; /* 1 Spalte */
+    gap: 1.2rem; /* noch enger */
+    text-align: center; /* typisches Mobile-Layout */
+  }
 }
